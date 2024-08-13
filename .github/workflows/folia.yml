@@ -49,7 +49,7 @@ jobs:
       - name: applyPathches
         run: |
           cd ~/folia
-          ./gradlew applyPatches
+          ./gradlew applyPatches --debug
           
       - name: building...
         run: |
