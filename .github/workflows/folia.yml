@@ -44,7 +44,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: clone folia repo
         run: |
-          git clone https://github.com/PaperMC/Folia.git ~/folia
+          git clone https://github.com/balazskokai/Folia.git ~/folia
           
       - name: applyPathches
         run: |
